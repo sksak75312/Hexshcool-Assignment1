@@ -168,7 +168,6 @@ img {
 }
 .tools-img img {
   display: block;
-  border-radius: 16px 16px 0 0;
   transition: 0.2s ease-in;
 }
 .tools-body {
