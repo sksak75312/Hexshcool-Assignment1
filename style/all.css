@@ -134,6 +134,10 @@ table {
   border-spacing: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -155,6 +159,8 @@ img {
   gap: 24px;
 }
 .tools-item {
+  display: flex;
+  flex-direction: column;
   width: 416px;
   border: 1px solid #F2F2F2;
   border-radius: 16px;
@@ -171,6 +177,7 @@ img {
   transition: 0.2s ease-in;
 }
 .tools-body {
+  flex-grow: 1;
   padding: 20px 32px;
 }
 .tools-title {
@@ -183,7 +190,6 @@ img {
   font-size: 14px;
   line-height: 150%;
   color: #525252;
-  min-height: 45px;
 }
 .tools-data {
   display: flex;
@@ -194,4 +200,7 @@ img {
 }
 .tools-data-ai {
   font-weight: 700;
+}
+.tools-data-link {
+  color: #020202;
 }/*# sourceMappingURL=all.css.map */

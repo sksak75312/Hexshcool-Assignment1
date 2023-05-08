@@ -12,6 +12,8 @@
   }
 
   &-item {
+    display: flex;
+    flex-direction: column;
     width: 416px;
     border: 1px solid #F2F2F2;
     border-radius: 16px;
@@ -30,6 +32,7 @@
   }
 
   &-body {
+    flex-grow: 1;
     padding: 20px 32px;
   }
 
@@ -44,7 +47,6 @@
     font-size: 14px;
     line-height: 150%;
     color: #525252;
-    min-height: 45px;
   }
 
   &-data {
@@ -57,5 +59,10 @@
     &-ai {
       font-weight: 700;
     }
+
+    &-link {
+      color: #020202;
+    }
+
   }
 }
